@@ -1,0 +1,613 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrap {
+	overflow: hidden;
+}
+header {
+    clear: both;
+    display:block;
+    text-align: center;
+    height: 50px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+main {
+    height: 100%;
+}
+h1 {
+    float: left;
+    margin: 0%;
+    color: #96746b;
+    height: 50px;
+    text-align: center;
+}
+nav {
+    display: block;
+    float: right;
+    height: 50px;
+    text-align: center;
+    margin-right:1%;
+}
+ul.header-list li{
+    list-style: none;
+    float: left;
+    margin-left: 16px;
+    display: block;
+    text-align: center;
+}
+ul.header-list li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+ul.header-list li a:hover {
+    color:#999;
+    text-decoration:solid
+    }
+#banner{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+}
+#bannerImage {
+    height: 600px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+}
+#bannerText {
+    position: relative;
+    top: 37%;
+    left: 7.5%;
+    padding: 1%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+#bannerText h2{
+    color: rgb(199, 161, 122);
+    font-size: 3.3rem;
+    margin: 0%;
+    display: block;
+    box-sizing: border-box;
+}
+#bannerText span{
+    color: rgb(150, 116, 107);
+}
+#bannerText p{
+    color: white;
+    margin: 0%;
+    font-size: 1.25rem;
+    padding: 1% 0 1% 0;
+    box-sizing: border-box;
+    display: block;
+}
+#bannerText a{
+    color: white;
+    background-color:rgb(199, 161, 122, 0.1);
+    text-decoration:none;
+    border-radius: 10%;
+    padding: 10px;
+    font-size: 1.4rem;
+    display:inline-block;
+}
+#bannerText a:hover {
+    color:#999;
+    text-decoration:underline;
+    }
+section#ads1 {
+    margin: 3% 7.5% 3% 7.5%;
+}
+#ads1 {
+    height: 265px;
+    justify-content:space-between;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    
+}
+.ads1image {
+    height: 100%;
+    width: 100%;
+}
+#image1 {
+    background-image: url(../images/ads-img1.jpg);
+    float:left;
+    height: 100%;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+}
+#image2 {
+    background-image: url(../images/ads-img2.jpg);
+    float:left;
+    height: 100%;
+    width:48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+}
+.ads1text {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    padding: 1%;
+    box-sizing: content-box;
+    text-align: left;
+    font-size: 130%;
+}
+
+.ads1text h3{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+.ads1text a{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 80%;
+}
+.ads1text a:hover {
+    color:#999;
+    text-decoration:underline;
+    }
+
+#merchandise {
+    margin: 0% 7.5% 3% 7.5%;
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+#merctext {
+    display: block;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
+#merctext span {
+    font-family: 'Homemade Apple', cursive;
+    color:#c7a17a;
+}
+#merctext h2{
+    color: #312a26;
+    margin: 0%;
+}
+#merctext hr {
+    color: #c7a17a;
+    margin: 0px;
+    width: 100%;
+}
+#merclist {
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+}
+#merclist ul{
+    list-style: none;
+    display: inline-block;
+    box-sizing: border-box;
+    align-items: center;
+    padding : 0;
+    margin: 0;
+    width: 100;
+}
+#merclist li {
+    float: left;
+    box-sizing: border-box;
+    width: 24.2%;
+    margin-top: 1%;
+}
+#merclist img {
+    box-sizing: border-box;
+    width: 100%;
+    height: 300%;
+}
+.mercontents {
+    box-sizing: border-box;
+    display: block;
+    font-size: 50%;
+    text-align: left;
+    align-items: center;
+}
+.mercontents h3 {
+    margin: 0%;
+}
+.mercontents p {
+    margin: 0%;
+}
+.merchandisetext {
+    font-size: 150%;
+}
+#left {
+    margin-right: 1%;
+}
+#Discount {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin: 0% 7.5% 3% 7.5%;
+    text-align: center;
+    align-items: center;
+    display: block;
+    box-sizing: border-box;
+}
+#DiscountImage {
+    background-image: url(../images/discount-img.jpg);
+    background-position:center center;
+    width: 98%;
+    height: 20rem;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#DiscountText {
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    position: relative;
+    top: 30%;
+    font-size: 130%;
+}
+#DiscountText p {
+    font-style: italic;
+    margin: 0;
+}
+#DiscountText h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#DiscountText a {
+    background-color:rgb(255, 255, 255, 0.5);
+    text-decoration:none;
+    border-radius: 1%;
+    padding: 10px;
+    font-size: 1.4rem;
+    display:inline-block;
+    color: #101010;
+    font-size: 100%;
+    margin-top: 3%;
+}
+#DiscountText a:hover {
+    color:#999;
+    text-decoration:underline;
+}
+#ads2 {
+    height: 500px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin: 0% 7.5% 3% 7.5%;
+    text-align: center;
+    align-items: center;
+    display: block;
+    box-sizing: border-box;
+    justify-content:space-between;
+}
+#image3 {
+    background-image: url(../images/ads-img3.jpg);
+    float:left;
+    height: 47%;
+    width: 48%;
+    margin:1%;
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+}
+#image4 {
+    background-image: url(../images/ads-img4.jpg);
+    float:left;
+    height: 47%;
+    width: 48%;
+    margin:1%;
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+}
+#image5 {
+    background-image: url(../images/ads-img5.jpg);
+    float:left;
+    height: 47%;
+    width: 48%;
+    margin:1%;
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+}
+#image6 {
+    background-image: url(../images/ads-img6.jpg);
+    float:left;
+    height: 47%;
+    width: 48%;
+    margin:1%;
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+}
+#ads2 .ads1image {
+    box-sizing: border-box;
+}
+#reserveform {
+    margin: 0% 7.5% 3% 7.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+#fr {
+    width: 100%;
+}
+#reservetext {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+}
+#reservetext h2{
+    color: #312a26;
+    margin: 0%;
+    box-sizing: border-box;
+    display: block;
+}
+#reservetext hr {
+    color: #c7a17a;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    display: block;
+}
+
+div#form {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    height: 550px;
+    padding: 0;
+    margin:0;
+    margin-top: 1%;
+}
+#formleft #center {
+    text-align: center;
+}
+#formright #center {
+    text-align: center;
+}
+#formright #center h4 {
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+#form input, select{
+    border: none;
+    width: 100%;
+    height: 2rem;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+#form textarea {
+    border: none;
+    resize: none;
+    width: 100%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+#formleft {
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(212, 212, 212, 0.3);
+    padding: 3%;
+    margin-right: 0.5%;
+    width: 49.5%;
+    height: 100%;
+
+}
+#formright {
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(212, 212, 212, 0.3);
+    padding: 3%;
+    margin-left: 0.5%;
+    width: 49.5%;
+    height:100%;
+}
+#formright img {
+    background-size: cover;
+    background-position:center center;
+    box-sizing: border-box;
+    width: 20%;
+    margin-bottom: 2%;
+}
+#send {
+    background-color: #c7a17a;
+    border-radius: 2%;
+    margin: 0;
+}
+#send:hover{
+    background-color: #ad8c6a;
+    border-radius: 2%;
+}
+#radio {
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+#radio input{
+    box-sizing: border-box;
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    margin:0
+}
+#radio label{
+    box-sizing: border-box;
+    width: 1rem;
+    height:1rem;
+    font-size: 1rem;
+}
+#check {
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    vertical-align: middle;
+}
+input#agree{
+    width:1rem;
+    height:1rem;
+    font-size: 1rem;
+    float: left;
+}
+#check label {
+    float: left;
+}
+
+#info {
+    display: block;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30%;
+    position: relative;
+    font-size: 0.6rem;
+}
+#info  h3{
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+#info  p{
+    color: #c7a17a;
+}
+#infoImage {
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(../images/footer-img.jpg);
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+}
+#foot {
+    height: 50px;
+    background-color: #19100f;
+}
+#openinghours {
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 10%;
+    left: 8%;
+}
+#latestpost {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 10%;
+    left: 28%;
+}
+#latestpost h4,p{
+    width:100%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
+#contact {
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 10%;
+    left: 50%;
+}
+#tlsp {
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+}
+#tlsp  #textform{
+    float: left;
+    width: 45%;
+    border: none;
+    line-height: 27.5px;
+    margin-right: 1%;
+    border-radius: 5%;
+}
+#tlsp #button {
+    float: left;
+    background-color: #c7a17a;
+    height: 30px;
+    border: none;
+    text-align: center;
+    border-radius: 5%;
+}
+#tlsp #button:hover{
+    background-color: #ad8c6a;
+    border-radius: 5%;
+}
+#tlsp h3 {
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+#otherlocations {
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 10%;
+    left: 72%;
+}
+#foot {
+    color: white;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+#logo {
+    display: inline-block;
+    margin-top: 1rem;
+}
+#sns {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+#sns img {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+#copyright {
+    display: inline-block;
+
+}
